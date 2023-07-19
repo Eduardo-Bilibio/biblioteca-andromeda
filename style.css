@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #ECE5F0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(img/pap.jpg);
+    background-position: center center;
+}
+header > h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 22px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+nav {
+    background-color: rgb(114, 31, 100);
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+nav > a {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+div {
+    background-color: white;
+    padding: 15px;
+    width: 75vw;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.233);
+    margin-bottom: 15px;
+}
+
+div > h2 {
+    text-align: center;
+    margin: 0;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+div > img {
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+}
